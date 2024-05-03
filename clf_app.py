@@ -1,9 +1,7 @@
 import streamlit as st
 from sklearn.datasets import make_blobs, make_circles, make_moons
-from numpy import unique
 from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, SpectralClustering, AffinityPropagation, MeanShift
 import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.mixture import GaussianMixture
 
 class StreamlitApp:
